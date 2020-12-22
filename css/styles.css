@@ -189,11 +189,35 @@ body {
   grid-area: main;
 }
 .footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 30px 30px;
+  justify-content: center;
+  align-items: center;
+  grid-area: ft;
+}
+
+.sources {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  grid-area: ft;
+  color: #DDDDDD;
+  font-size: 0.75em;
+}
+
+.sources p {
+  margin: 0 10px 0 10px;
+}
+
+.social-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sources a {
+  color: #DDDDDD;
 }
 
 .footer img {
