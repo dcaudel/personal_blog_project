@@ -1,0 +1,31 @@
+.footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 30px 30px;
+  justify-content: center;
+  align-items: center;
+  grid-area: ft;
+}
+
+.social-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sources {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #dddddd;
+  font-size: 0.75em;
+}
+
+.sources p {
+  margin: 0 10px 0 10px;
+}
+
+.sources a {
+  color: #dddddd;
+}

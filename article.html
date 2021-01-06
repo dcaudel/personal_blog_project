@@ -10,29 +10,41 @@
   <body>
     <div class="container">
       <header class="header">
-        <img class="logo-image" alt="Facebook" src="../media/pen.svg" />
+        <img class="logo-image" alt="Facebook" src="./media/pen.svg" />
         <div class="header-item logo-text">
           <a href="index.html">Dan's blog</a>
         </div>
         <div class="header-item"><a href="index.html">Home</a></div>
-        <div class="header-item"><img alt="" src="../media/avatar.svg" /></div>
+        <div class="header-item"><img alt="" src="./media/avatar.svg" /></div>
       </header>
       <article class="article">
-        <img class="post-image" src="media/mtn-top.jpg" />
+        <figure class="fig-wrap">
+          <img class="post-image" src="media/mtn-top.jpg" />
+          <figcaption class="fig-caption">Starry mountain</figcaption>
+        </figure>
+        
         <div class="article-wrap">
           <h1 class="main-title">Article title</h1>
           <p class="by-line">By: Dan C.</p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            pharetra sit amet aliquam id diam maecenas. Tellus integer feugiat
-            scelerisque varius morbi enim nunc faucibus a. Ut consequat semper
-            viverra nam libero. Faucibus a pellentesque sit amet porttitor eget
+            pharetra sit amet aliquam id diam maecenas. Tellus integer feugiat:
+            <blockquote>
+              Scelerisque varius morbi enim nunc faucibus a. Ut consequat semper
+              viverra nam libero. Faucibus a pellentesque sit amet porttitor eget.
+            </blockquote>
+            
             dolor morbi non. Quisque id diam vel quam elementum pulvinar etiam
             non quam. Viverra ipsum nunc aliquet bibendum enim. Blandit libero
             volutpat sed cras ornare arcu dui vivamus. Faucibus vitae aliquet
             nec ullamcorper sit amet. Volutpat lacus laoreet non curabitur
-            gravida arcu. Quis viverra nibh cras pulvinar mattis nunc. Et leo
+            gravida arcu. 
+            <figure class="fig-wrap">
+              <img class="post-image" src="./media/leaves.jpg" />
+              <figcaption class="fig-caption">These are probably leaves...</figcaption>
+            </figure>
+            Quis viverra nibh cras pulvinar mattis nunc. Et leo
             duis ut diam quam nulla porttitor massa id. Aliquam ultrices
             sagittis orci a. Sit amet volutpat consequat mauris nunc.
           </p>
@@ -41,10 +53,13 @@
             Netus et malesuada fames ac turpis egestas. Amet massa vitae tortor
             condimentum lacinia quis vel. Aliquet risus feugiat in ante metus
             dictum at. Cursus turpis massa tincidunt dui ut ornare lectus.
-            Sapien nec sagittis aliquam malesuada bibendum. Volutpat blandit
-            aliquam etiam erat. Vitae et leo duis ut diam. Ut eu sem integer
-            vitae justo eget magna fermentum. Cursus risus at ultrices mi. In
-            aliquam sem fringilla ut morbi tincidunt augue.
+            Sapien nec sagittis aliquam malesuada bibendum. Volutpat blandit:
+            <blockquote>
+              Aliquam etiam erat. Vitae et leo duis ut diam. Ut eu sem integer
+              vitae justo eget magna fermentum. Cursus risus at ultrices mi. In
+              aliquam sem fringilla ut morbi tincidunt augue.
+            </blockquote>
+          
           </p>
           <p>
             Netus et malesuada fames ac turpis egestas. Amet massa vitae tortor
@@ -79,7 +94,7 @@
       <section class="older">
         <div class="about">
           <div class="about-header">
-            <img class="about-avatar" alt="" src="../media/about-avatar.svg" />
+            <img class="about-avatar" alt="" src="./media/about-avatar.svg" />
 
             <div class="about-header-text">About</div>
           </div>
@@ -99,7 +114,9 @@
           <p class="by-line">By: Dan C.</p>
           <div class="older-card-footer">
             <div class="post-date">Dec. 19, 2020</div>
-            <a href="article.html" class="read-btn">Read</a>
+            <form action="article.html">
+              <button type="submit" class="read-btn">Read</button>
+            </form>
           </div>
         </div>
         <div class="older-post">
@@ -107,7 +124,9 @@
           <p class="by-line">By: Dan C.</p>
           <div class="older-card-footer">
             <div class="post-date">Dec. 19, 2020</div>
-            <a href="article.html" class="read-btn">Read</a>
+            <form action="article.html">
+              <button type="submit" class="read-btn">Read</button>
+            </form>
           </div>
         </div>
         <div class="older-post">
@@ -115,7 +134,9 @@
           <p class="by-line">By: Dan C.</p>
           <div class="older-card-footer">
             <div class="post-date">Dec. 19, 2020</div>
-            <a href="article.html" class="read-btn">Read</a>
+            <form action="article.html">
+              <button type="submit" class="read-btn">Read</button>
+            </form>
           </div>
         </div>
         <div class="older-post">
@@ -123,7 +144,9 @@
           <p class="by-line">By: Dan C.</p>
           <div class="older-card-footer">
             <div class="post-date">Dec. 19, 2020</div>
-            <a href="article.html" class="read-btn">Read</a>
+            <form action="article.html">
+              <button type="submit" class="read-btn">Read</button>
+            </form>
           </div>
         </div>
         <div class="older-post">
@@ -131,7 +154,9 @@
           <p class="by-line">By: Dan C.</p>
           <div class="older-card-footer">
             <div class="post-date">Dec. 19, 2020</div>
-            <a href="article.html" class="read-btn">Read</a>
+            <form action="article.html">
+              <button type="submit" class="read-btn">Read</button>
+            </form>
           </div>
         </div>
         <div class="older-post">
@@ -139,7 +164,9 @@
           <p class="by-line">By: Dan C.</p>
           <div class="older-card-footer">
             <div class="post-date">Dec. 19, 2020</div>
-            <a href="article.html" class="read-btn">Read</a>
+            <form action="article.html">
+              <button type="submit" class="read-btn">Read</button>
+            </form>
           </div>
         </div>
         <div class="older-post">
@@ -147,15 +174,17 @@
           <p class="by-line">By: Dan C.</p>
           <div class="older-card-footer">
             <div class="post-date">Dec. 19, 2020</div>
-            <a href="article.html" class="read-btn">Read</a>
+            <form action="article.html">
+              <button type="submit" class="read-btn">Read</button>
+            </form>
           </div>
         </div>
       </section>
       <footer class="footer">
         <div class="social-logos">
-          <img alt="Facebook" src="../media/fb.svg" />
-          <img alt="LinkedIn" src="../media/in.svg" />
-          <img alt="Twitter" src="../media/tweet.svg" />
+          <img alt="Facebook" src="./media/fb.svg" />
+          <img alt="LinkedIn" src="./media/in.svg" />
+          <img alt="Twitter" src="./media/tweet.svg" />
         </div>
         <div class="sources">
           <p>

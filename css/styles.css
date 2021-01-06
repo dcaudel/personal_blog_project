@@ -1,4 +1,6 @@
+@import "header.css";
 @import "article.css";
+@import "footer.css";
 
 body {
   background-color: #303030;
@@ -101,9 +103,18 @@ body {
 
 .post-image {
   width: 100%;
-  margin-bottom: 10px;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
+}
+
+.fig-wrap {
+  margin: 10px 0 10px 0;
+}
+
+.fig-caption {
+  padding: 2px 0 10px 10px;
+  color: gray;
+  font-size: 0.8em;
 }
 
 .recent {
@@ -112,7 +123,6 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 10px;
-  
 }
 .recent-content {
   display: flex;
@@ -143,42 +153,6 @@ body {
   background-position: bottom 0% right 100%;
 }
 
-.header-item {
-  margin: 10px;
-}
-
-.logo-image  {
-  width: 35px;
-  margin-right: 20px;
-}
-
-.logo-text {
-  font-size: 1.25em;
-  margin-left: -10px;
-  padding: 5px;
-  border-radius: 4px;
-}
-
-.header div:nth-child(3) {
-  margin-left: auto;
-}
-
-.header a {
-  text-decoration: none;
-}
-
-.header a:hover {
-  text-decoration: none;
-  padding: 10px;
-  background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 4px;
-}
-
-.header a:visited {
-  text-decoration: none;
-  color: #DDDDDD;
-}
-
 .older {
   display: flex;
   flex-direction: column;
@@ -187,37 +161,6 @@ body {
 }
 .content {
   grid-area: main;
-}
-.footer {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 30px 30px;
-  justify-content: center;
-  align-items: center;
-  grid-area: ft;
-}
-
-.sources {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  color: #DDDDDD;
-  font-size: 0.75em;
-}
-
-.sources p {
-  margin: 0 10px 0 10px;
-}
-
-.social-logos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.sources a {
-  color: #DDDDDD;
 }
 
 .footer img {
@@ -269,6 +212,7 @@ body {
   padding: 5px 10px 5px 10px;
   border-left: 2px solid #DDDDDD;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .content .read-btn:hover {
